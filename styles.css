@@ -1,0 +1,57 @@
+/*GLOBALES*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 3rem;
+}
+
+/* HEADER */
+.nav {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( min( 100%, 20rem ), 1fr ) );
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav__link p {
+    margin: 1rem 1rem;
+}
+
+/* MAIN */
+.content {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax( 17rem, 1fr )  );
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+.plato {
+    margin-top: 2rem;
+    
+}
+
+.plato__img {
+    height: 21rem;
+}
+
+/* UTILIDADES */
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.ancho-responsive {
+    max-width: 120rem;
+    width: 90%;
+}
